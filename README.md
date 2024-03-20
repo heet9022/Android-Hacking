@@ -5,8 +5,10 @@
 This project demonstrates how to hack mobile phones using Kali Linux tools. It allows spying on any mobile device and obtaining various details such as installed applications, geolocation, contacts, and even performing mischievous actions like playing random music files. The main technique is to create a payload using the Kali Linux terminal and send it to the victim's mobile phone. After the installation of the payload app, it sends all the data of the victim's mobile phone, granting remote access to the Android device.
 
 ## Installation
-1. Install the pentesting tool lPhantom Evasion by cloning from the GitHub link: https://github.com/oddcod3/Phantom-Evasion and running the setup through the command `python3 phantom-evasion.py --setup`.
-2. Use Ngrok, a cloud service that allows running a program on your machine and providing it the port of a network service, usually a web server.
+1. Install the pentesting tool lPhantom Evasion
+  - `git clone https://github.com/oddcod3/Phantom-Evasion`
+  - `python3 phantom-evasion.py --setup`
+2. Download [ngrok](https://ngrok.com/download)
 
 ## Process
 ### Payload Generation
